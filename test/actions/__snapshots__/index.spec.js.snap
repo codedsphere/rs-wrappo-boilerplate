@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actions should have the correct actions 1`] = `
+Object {
+  "default": Object {
+    "appModel": Object {
+      "initializeAll": [Function],
+      "initializeState": [Function],
+      "removeState": [Function],
+      "updateState": [Function],
+    },
+  },
+}
+`;
+
+exports[`actions should have the correct actions 2`] = `
+Object {
+  "pageSaga": Object {
+    "callGitRepo": [Function],
+    "getUserLogout": [Function],
+    "putUserLogin": [Function],
+  },
+}
+`;
